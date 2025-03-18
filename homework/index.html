@@ -8,9 +8,10 @@
   <title>Responsive Clinic</title>
 </head>
 <body>
-
 <header>
-  <img src="img/logo.png" alt="Clinic Logo" class="logo">
+  <a href="index.html">
+    <img src="img/logo.png" alt="Clinic Logo" class="logo">
+  </a>
   <nav>
     <ul>
       <li><a href="#home">HOME</a></li>
@@ -23,15 +24,36 @@
 </header>
 
 <section id="home" class="hero">
-  <div class="hero-text">
-    <h1>Professional Healthcare</h1>
-    <p>Providing expert medical services for your health and well-being.</p>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1><span>Professional Developers</span><br>Health Care</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Enim unde voluptas perspiciatis praesentium velit. Placeat!</p>
+
+      <div class="hero-icons">
+        <i class="icon">💓</i>
+        <i class="icon">🏥</i>
+        <i class="icon">🩺</i>
+      </div>
+    </div>
+    <div class="hero-image">
+    </div>
   </div>
 </section>
 
 <section id="about" class="about">
-  <h2>ABOUT CLINIC</h2>
-  <p>We offer professional medical consultations, laboratory analysis, and diagnostics.</p>
+  <div class="about-image">
+    <img src="img/tools.png" alt="Clinic Workspace">
+  </div>
+  <div class="about-content">
+    <h2>About Clinic</h2>
+    <h3>Professional Care</h3>
+    <ul>
+      <li><strong>Medical Consulting</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li><strong>Laboratory analysis</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li><strong>Diagnostics</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+    </ul>
+  </div>
 </section>
 
 <section id="services" class="services">
@@ -42,32 +64,32 @@
     <div class="service-card">
       <img src="img/icons/oftalmology.jpg" alt="Ophthalmology">
       <h3>Ophthalmology</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <p>Comprehensive eye care and vision correction.</p>
     </div>
     <div class="service-card">
       <img src="img/icons/dentistry.jpg" alt="Dentistry">
       <h3>Dentistry</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <p>High-quality dental care and oral hygiene services.</p>
     </div>
     <div class="service-card">
       <img src="img/icons/cardiology.jpg" alt="Cardiology">
       <h3>Cardiology</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <p>Advanced heart care and cardiovascular treatments.</p>
     </div>
     <div class="service-card">
       <img src="img/icons/pediatrics.jpg" alt="Pediatrics">
       <h3>Pediatrics</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <p>Expert medical care for children and adolescents.</p>
     </div>
     <div class="service-card">
       <img src="img/icons/laboratory.jpg" alt="Laboratory">
       <h3>Laboratory</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <p>Accurate diagnostic tests and medical analysis.</p>
     </div>
     <div class="service-card">
       <img src="img/icons/radiology.jpg" alt="Radiology">
       <h3>Radiology</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <p>State-of-the-art imaging and diagnostic services.</p>
     </div>
   </div>
 </section>
@@ -128,9 +150,9 @@
           <option value="dentistry">Dentistry</option>
           <option value="cardiology">Cardiology</option>
           <option value="radiology">Radiology</option>
-          <option value="radiology">Ophtalmology</option>
-          <option value="radiology">Laboratory</option>
-          <option value="radiology">Pediatrics</option>
+          <option value="ophthalmology">Ophthalmology</option>
+          <option value="laboratory">Laboratory</option>
+          <option value="pediatrics">Pediatrics</option>
         </select>
 
         <label for="date">Preferred Date</label>
