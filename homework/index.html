@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Manager</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div id="contact-list" class="contact-list">
+    <div class="contact" data-id="1">
+      <p class="name">Ervin Howell</p>
+      <p class="username">@Antonette</p>
+      <div class="details hidden">
+        <p>Phone: 024-648-3804</p>
+        <p>Website: ambrose.net</p>
+        <p>Email: Rey.Padberg@karina.biz</p>
+      </div>
+      <button class="edit-btn">Edit</button>
+      <button class="delete-btn">Delete</button>
+    </div>
+    <div class="contact" data-id="2">
+      <p class="name">Clementine Bauch</p>
+      <p class="username">@Samantha</p>
+      <div class="details hidden">
+        <p>Phone: 1-477-935-8478</p>
+        <p>Website: ola.org</p>
+        <p>Email: Karley_Dach@jasper.info</p>
+      </div>
+      <button class="edit-btn">Edit</button>
+      <button class="delete-btn">Delete</button>
+    </div>
+    <div class="contact" data-id="3">
+      <p class="name">Patricia Lebsack</p>
+      <p class="username">@Karianne</p>
+      <div class="details hidden">
+        <p>Phone: 1-770-736-8031</p>
+        <p>Website: kale.biz</p>
+        <p>Email: Julianne.OConner@kale.biz</p>
+      </div>
+      <button class="edit-btn">Edit</button>
+      <button class="delete-btn">Delete</button>
+    </div>
+  </div>
+  <div id="contact-edit" class="contact-edit hidden">
+    <input type="text" id="edit-name" placeholder="Name">
+    <input type="text" id="edit-username" placeholder="Username">
+    <input type="text" id="edit-phone" placeholder="Phone">
+    <input type="text" id="edit-website" placeholder="Website">
+    <input type="text" id="edit-email" placeholder="Email">
+    <button id="save-btn">Save</button>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
